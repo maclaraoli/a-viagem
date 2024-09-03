@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700&display=swap" rel="stylesheet">
+    <title>A viagem dos sonhos</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/jovens.jpg" alt="">
+            <p>Luiza, Pedro, Clara e João são jovens católicos que sempre sonharam em fazer uma viagem juntos. Decidem que é hora de realizar esse sonho e planejar uma peregrinação a um santuário famoso. No entanto, eles precisam decidir por onde começar.</p>
+            <button class="btn-proximo" data-proximo="1">Fazer uma lista de destinos</button>
+            <button class="btn-proximo" data-proximo="2">Pedir conselho ao padre da paróquia</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Eles começam a fazer uma lista de destinos e se deparam com dois lugares que parecem perfeitos: o Santuário de Aparecida e o Santuário de Fátima. Qual escolher?</p>
+            <button class="btn-proximo" data-proximo="3">Escolher o Santuário de Aparecida</button>
+            <button class="btn-proximo" data-proximo="4">Escolher o Santuário de Fátima</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Eles decidem pedir conselho ao padre. O padre sugere que eles visitem o Santuário de Aparecida, mas também menciona a importância de seguir o coração.</p>
+            <button class="btn-proximo" data-proximo="3">Seguir o conselho e ir ao Santuário de Aparecida</button>
+            <button class="btn-proximo" data-proximo="4">Escolher o Santuário de Fátima</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Eles escolhem o Santuário de Aparecida e começam a planejar a viagem, compram as passagens e reservam um lugar para ficar.</p>
+            <button class="btn-proximo" data-proximo="5">Começar a viagem</button>
+        </div>
+        <div class="passo" id="passo-4">
+            <p>Eles escolhem o Santuário de Fátima e começam a planejar a viagem, compram as passagens e reservam um lugar para ficar.</p>
+            <button class="btn-proximo" data-proximo="6">Começar a viagem</button>
+        </div>
+        <div class="passo" id="passo-5">
+            <img src="img/aparecida.jpg" alt="">
+            <p>Eles chegam ao Santuário de Aparecida e são recebidos por uma atmosfera de paz e espiritualidade. Eles decidem o que fazer primeiro.</p>
+            <button class="btn-proximo" data-proximo="7">Visitar a Basílica</button>
+            <button class="btn-proximo" data-proximo="8">Participar de uma missa</button>
+        </div>
+        <div class="passo" id="passo-6">
+            <img src="img/fatima.webp" alt="">
+            <p>Eles chegam ao Santuário de Fátima e são recebidos por uma atmosfera de paz e espiritualidade. Eles decidem o que fazer primeiro.</p>
+            <button class="btn-proximo" data-proximo="9">Visitar a Capelinha das Aparições</button>
+            <button class="btn-proximo" data-proximo="10">Participar de uma procissão de velas</button>
+        </div>
+        <div class="passo" id="passo-7">
+            <p>Eles visitam a Basílica e se maravilham com sua grandiosidade e beleza. Sentem-se mais conectados com sua fé.</p>
+            <button class="btn-proximo" data-proximo="11">Participar de uma missa</button>
+            <button class="btn-proximo" data-proximo="12">Explorar o Santuário</button>
+        </div>
+        <div class="passo" id="passo-8">
+            <p>Eles participam de uma missa e sentem uma profunda paz espiritual. Após a missa, decidem o que fazer em seguida.</p>
+            <button class="btn-proximo" data-proximo="7">Visitar a Basílica</button>
+            <button class="btn-proximo" data-proximo="12">Explorar o Santuário</button>
+        </div>
+        <div class="passo" id="passo-9">
+            <p>Eles visitam a Capelinha das Aparições e se emocionam ao saber mais sobre a história das aparições de Nossa Senhora de Fátima.</p>
+            <button class="btn-proximo" data-proximo="13">Participar de uma procissão de velas</button>
+            <button class="btn-proximo" data-proximo="14">Explorar o Santuário</button>
+        </div>
+        <div class="passo" id="passo-10">
+            <p>Eles participam de uma procissão de velas e sentem uma conexão profunda com os outros peregrinos. Após a procissão, decidem o que fazer em seguida.</p>
+            <button class="btn-proximo" data-proximo="9">Visitar a Capelinha das Aparições</button>
+            <button class="btn-proximo" data-proximo="14">Explorar o Santuário</button>
+        </div>
+        <div class="passo" id="passo-11">
+            <p>Eles participam de uma missa na Basílica e sentem uma profunda paz espiritual. Após a missa, decidem explorar o Santuário.</p>
+            <button class="btn-proximo" data-proximo="12">Explorar o Santuário</button>
+        </div>
+        <div class="passo" id="passo-12">
+            <p>Eles exploram o Santuário, visitam a Sala das Promessas e fazem novas amizades com outros peregrinos. Sentem-se renovados em sua fé.</p>
+            <button class="btn-proximo" data-proximo="15">Voltar para casa</button>
+        </div>
+        <div class="passo" id="passo-13">
+            <p>Eles participam de uma procissão de velas e sentem uma conexão profunda com os outros peregrinos. Após a procissão, decidem explorar o Santuário.</p>
+            <button class="btn-proximo" data-proximo="14">Explorar o Santuário</button>
+        </div>
+        <div class="passo" id="passo-14">
+            <p>Eles exploram o Santuário, visitam a Basílica da Santíssima Trindade e fazem novas amizades com outros peregrinos. Sentem-se renovados em sua fé.</p>
+            <button class="btn-proximo" data-proximo="15">Voltar para casa</button>
+        </div>
+        <div class="passo" id="passo-15">
+            <p>Eles voltam para casa com o coração cheio de paz e alegria, trazendo consigo lembranças inesquecíveis e uma fé renovada. Eles sabem que essa viagem foi apenas o começo de muitas outras que farão juntos.</p>
+            <button class="btn-proximo" data-proximo="0">Recomeçar a aventura</button>
+        </div>
+    </main>
+    <script>
+        document.querySelectorAll('.btn-proximo').forEach(button => {
+            button.addEventListener('click', () => {
+                const proximoPasso = button.getAttribute('data-proximo');
+                document.querySelectorAll('.passo').forEach(passo => passo.classList.remove('ativo'));
+                document.getElementById('passo-' + proximoPasso).classList.add('ativo');
+            });
+        });
+    </script>
+</body>
+</html>
